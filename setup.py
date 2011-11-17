@@ -64,5 +64,5 @@ setup(
 
     test_suite = 'nose.collector',
 
-    )
+    use_2to3=True)
       
