@@ -6,14 +6,16 @@ try:
 except ImportError:
     pass
 
-from louie import version
+NAME = 'Louie'
+DESCRIPTION = 'Signal dispatching mechanism'
+VERSION = '1.2a1'
 
 setup(
-    name=version.NAME,
+    name=NAME,
 
-    version=version.VERSION,
+    version=VERSION,
 
-    description=version.DESCRIPTION,
+    description=DESCRIPTION,
 
     long_description=textwrap.dedent("""
     Louie provides Python programmers with a straightforward way to dispatch
